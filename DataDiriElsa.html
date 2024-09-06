@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group input[readonly] {
+            background-color: #f9f9f9;
+        }
+        .form-group .readonly {
+            background-color: #f9f9f9;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Data Pribadi</h2>
+        <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" value="Elsa zahra saputri" readonly>
+        </div>
+        <div class="form-group">
+            <label for="nama-panggilan">Nama Panggilan:</label>
+            <input type="text" id="nama-panggilan" value="ecaa" readonly>
+        </div>
+        <div class="form-group">
+            <label for="tempat-tgl-lahir">Tempat/Tgl Lahir:</label>
+            <input type="text" id="tempat-tgl-lahir" value="Gasaribu,09 januati 2007" readonly>
+        </div>
+        <div class="form-group">
+            <label for="agama">Agama:</label>
+            <input type="text" id="agama" value="islam" readonly>
+        </div>
+        <div class="form-group">
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" value="Sitoluama,Laguboti" readonly>
+        </div>
+        <div class="form-group">
+            <label for="sekolah">Sekolah:</label>
+            <input type="text" id="sekolah" value="SMA N1 LAGUBOTI" readonly>
+        </div>
+        <div class="form-group">
+            <label for="umur">Umur:</label>
+            <input type="text" id="umur" value="17 tahun" readonly>
+        </div>
+        <div class="form-group">
+            <label for="kelas">Kelas:</label>
+            <input type="text" id="kelas" value="12 mia 2" readonly>
+        </div>
+        <div class="form-group">
+            <label for="jenis-kelamin">Jenis Kelamin:</label>
+            <input type="text" id="jenis-kelamin" value="wanita" readonly>
+        </div>
+        <div class="form-group">
+            <label for="anak-ke">Anak Ke:</label>
+            <input type="text" id="anak-ke" value="2" readonly>
+        </div>
+    </div>
+</body>
+</html>
